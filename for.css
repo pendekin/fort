@@ -1,0 +1,144 @@
+<b:template-skin>
+<![CDATA[
+/* --- CSS For Layout --- */
+body#layout,
+body#layout div.section {
+  font-family:Arial, sans-serif;
+}
+body#layout {
+  background-color:#ffffff;
+  border:1px solid;
+  border-color:#eee;
+  border-radius:7px;
+  text-align:left;
+  max-width:780px;
+  margin:30px auto;
+  padding:20px 30px;
+}
+body#layout:before {
+  content:"Gila Material Pro versi 1.3 (15 November 2022)";
+  display:inline-block;
+  background:rgba(208, 215, 222, 0.32);
+  color:#5f6368;
+  border-radius:7px;
+  font-size:14px;
+  margin:10px 0 30px;
+  padding:10px 15px;
+}
+body#layout .section h4 {
+  font-size:14px;
+  text-transform:uppercase;
+  margin:0;
+}
+body#layout div.section {
+  background-color:transparent;
+  border:none;
+  max-width:100%;
+  max-height:100%;
+  padding:0;
+}
+body#layout div.section > div {
+  border-radius:8px;
+  overflow:hidden;
+}
+body#layout .add_widget a {
+  color:#6750a4;
+}
+body#layout .visibility .layout-widget-state.not-visible {
+  background-image:url("https://4.bp.blogspot.com/-tqL3-mrEM7A/XR_H_P3mFZI/AAAAAAAABSs/4PO1g3CDQbse_mJYzwn-60OQoYMFcq1FQCK4BGAYYCw/s1600/visibility_off_c3_600_24dp.png");
+  opacity:1;
+}
+body#layout .draggable-widget .widget-wrap2 {
+  background-color:#6750a4;
+}
+body#layout .visibility .editlink.icon {
+  border:1px solid;
+  border-color:#dadce0;
+  border-radius:8px;
+  padding:4px;
+}
+body#layout .visibility .editlink.icon:hover {
+  background-color:#eee;
+}
+body#layout .gmp_panel,
+body#layout .header_left,
+body#layout .header_right,
+body#layout .gmp_search_container,
+body#layout .gmp_ad_under_header,
+body#layout .product_banners,
+body#layout .main,
+body#layout .infeed_ad,
+body#layout .top_ad,
+body#layout .middle_ad1,
+body#layout .parallax_ad,
+body#layout .middle_ad2,
+body#layout .bottom_ad,
+body#layout .matched_content,
+body#layout .sidebar,
+body#layout .sidebar_sticky,
+body#layout .sidebar_product,
+body#layout .sidebar_product_sticky,
+body#layout .post_coverage,
+body#layout .footer_widget,
+body#layout .gmp_custom_script {
+  background-color:rgba(208, 215, 222, 0.32) !important;
+  border-radius:7px;
+  width:-webkit-fill-available;
+  margin:0 !important;
+  padding:15px !important;
+}
+body#layout .gmp_panel,
+body#layout .gmp_search_container,
+body#layout .gmp_ad_under_header,
+body#layout .product_banners,
+body#layout .main,
+body#layout .infeed_ad,
+body#layout .top_ad,
+body#layout .middle_ad1,
+body#layout .parallax_ad,
+body#layout .middle_ad2,
+body#layout .bottom_ad,
+body#layout .matched_content,
+body#layout .sidebar,
+body#layout .sidebar_sticky,
+body#layout .sidebar_product,
+body#layout .footer_widget {
+  margin-bottom:15px !important;
+}
+body#layout .gmp_header_wrapper,
+body#layout .gmp_content_wrapper {
+  display:flex;
+  margin-bottom:15px;
+}
+body#layout .header_left,
+body#layout .gmp_main_post {
+  margin-right:15px !important;
+}
+body#layout .gmp_main_post,
+body#layout .gmp_sidebar {
+  width:-webkit-fill-available;
+}
+body#layout .gmp_ad_under_header .widget-content,
+body#layout .infeed_ad .widget-content,
+body#layout .top_ad .widget-content,
+body#layout .middle_ad1 .widget-content,
+body#layout .parallax_ad .widget-content,
+body#layout .middle_ad2 .widget-content,
+body#layout .bottom_ad .widget-content,
+body#layout .matched_content .widget-content {
+  background-color:#f1e0b4;
+}
+body#layout .gmp_ad_under_header .visibility .editlink.icon,
+body#layout .infeed_ad .visibility .editlink.icon,
+body#layout .top_ad .visibility .editlink.icon,
+body#layout .middle_ad1 .visibility .editlink.icon,
+body#layout .parallax_ad .visibility .editlink.icon,
+body#layout .middle_ad2 .visibility .editlink.icon,
+body#layout .bottom_ad .visibility .editlink.icon,
+body#layout .matched_content .visibility .editlink.icon {
+  border-color:#3e3f43;
+}
+body#layout .gmp_navigation {
+  margin-top:15px;
+}
+]]></b:template-skin>
